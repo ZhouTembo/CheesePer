@@ -11,6 +11,7 @@ namespace CheeseMVC.Migrations
         {
             migrationBuilder.CreateTable(
                 name: "Categories",
+
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)

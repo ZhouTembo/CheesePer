@@ -13,6 +13,7 @@ namespace CheeseMVC.Controllers
     {
         public IActionResult Index()
         {
+
             var allCategories = context.Categories.ToList();
             return View(allCategories);
         }

@@ -11,6 +11,7 @@ using System;
 namespace CheeseMVC.Migrations
 {
     [DbContext(typeof(CheeseDbContext))]
+
     [Migration("20171221155342_AlmostFreakingDone")]
     partial class AlmostFreakingDone
     {

@@ -14,6 +14,7 @@ namespace CheeseMVC.Models
         [Display(Name="Category Name")]
         public string Name { get; set; }
 
+
         public IList<Cheese> Cheeses { get; set; }
     }
 }
