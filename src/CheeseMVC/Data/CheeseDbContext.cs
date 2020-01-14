@@ -14,6 +14,7 @@ namespace CheeseMVC.Data
             : base(options)
         { }
 
+<<<<<<< HEAD
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CheeseMenu>()
@@ -21,6 +22,9 @@ namespace CheeseMVC.Data
         }
 
 
+=======
+        public DbSet<CheeseCategory> Categories { get; set; }
+>>>>>>> 7c21f3c46df186f6346b29ea49eefef6b0dc594b
 
     }
 }
